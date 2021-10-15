@@ -1,3 +1,8 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
 body{
   background-color:#513F31;
   color: #C6BBA5;
@@ -7,4 +12,18 @@ body{
   font-weight: bold;
   font-style: italic;
   font-size: 135px;
+}.image_me{
+  text-align: left;
+  width: 500px;
+  /* position: absolute; */
+  border-radius: 25px 25px 2px 1px;
+  float: left;
+  bottom: 0px;
+}
+.line{
+ height: 200px;
+width: 20px;
+color: white;
+}#image-container{
+text-align: left;
 }
