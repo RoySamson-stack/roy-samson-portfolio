@@ -26,4 +26,10 @@ width: 20px;
 color: white;
 }#image-container{
 text-align: left;
+}.link-btn{
+  height: 100px;
+  background-color: inherit;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid white; 
 }
