@@ -1,0 +1,10 @@
+body{
+  background-color:#513F31;
+  color: #C6BBA5;
+}
+.main-title{
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 135px;
+}
