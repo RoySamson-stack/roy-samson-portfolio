@@ -2,8 +2,14 @@
   margin: 0px;
   padding: 0px;
 }
+:root{
+  --clr-neutral-900: hsl(207, 19%, 9%);
+  --clr-neutral-100:hsl(0, 0%, 100%);
+  --clr-accent-400: hsl(142, 90%, 61%);
+}
 *, 
-*::before, *::after{
+*::before,
+ *::after{
   box-sizing: border-box;
 }
 
@@ -54,48 +60,46 @@ body {
 }.contact{
   position: absolute;
   bottom: 10%;
-}#card{
-  place-items:center;
-  color: white;
-  background-image: url("img/image.png");
-  background-repeat: no-repeat;
+}
+.card{
+  color:var(--clr-neutral-100);
+  background-image: url(img/image.png);
   background-size: cover;
-  padding: 10rem 0 0;
+  padding:10rem 0 0;
   max-width: 35ch;
   border-radius: 1rem;
-  overflow: hidden;
 
-}.card-content{
-  --padding: 1.5em;
-  padding: var(--padding);
-  background: linear-gradient(
-    hsl(0 0% 0%/ 0),
-    hsl(0 0% 0% / 1),
+}
+.card-content{
+  --padding: 1.5rem;
+  padding: var(--padding );
+  background:linear-gradient(
+    hsl(0 0% 0% / 0),
+    hsl(20 0% 0% / 0.3) 100%,
+    hsl(0 0% 0% / 1)
   );
 }
 .card-title{
-  place-items: center;
-position: relative;
-/* outline: 1px solid red; */
-width:max-content;
-}.card-title::after{
-  content: "";
-  position: absolute;
-  height: 4px;
-  left: 0;
-  bottom:0;
-  width: 100%;
-  background: lightgreen;
+  position: relative;
+  width: max-content;
+}
+.card-title::after{
+content: "";
+position: absolute;
+height: 3px;
+left:calc(var(--padding) * -1);
+bottom: 0;
+width: calc(100% + var(--padding));
+background: var(--clr-accent-400);
 }.button{
   cursor: pointer;
-  display: inline-block;
-  color: black;
-  background-color:lightgreen;
-  padding: 0.5em 1.5em;
-  margin: 25px 25px;
-  border-radius: 0.25em;
- 
-}
-.button:hover, .button:focus{
-  background-color: white;
+  display: inline-flex;
+  text-decoration: none ;
+  color: var(--clr-neutral-900);
+  background-color: var(--clr-accent-400);
+  padding: 0.5em 1.25em;
+
+}.button:hover, .button:focus{
+  background-color: var(--clr-neutral-100);
+
 }
