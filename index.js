@@ -1,6 +1,9 @@
 $(document).ready(function(){
   $(".link-btn").click(function(){
-    $(".container").hide();
-    $(".link-btn").show();
+    $(".main-title").toggle();
+    $(".title").toggle();
+    $(".contact").toggle();
+    $(".image_me").toggle();
+    $("#projects").toggle();
   })
 })
