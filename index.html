@@ -8,12 +8,19 @@
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link href="index.css" rel="stylesheet" type="text/css">
   <title>Roy Samson portfolio</title>
 </head>
 
 <body>
+  <div class="icons">
+    <ul>
+      <p class="icon_item"><a href="" class="fa fa-github"></a></p>
+      <p class="icon_item"><a href="" class="fa fa-linkedin"></a></p>
+    </ul>
+  </div>
   <div class="container" id="container">
     <div class="contain ">
       <div class="main">
@@ -26,7 +33,7 @@
         </h1>
       </div>
     </div>
-      <!-- <div class="col contain">
+    <!-- <div class="col contain">
         <div class="contact">
           <h2 class="">Contacts</h2>
           <p></p>
@@ -38,18 +45,21 @@
   </div>
   <div class="container">
     <dic class="row">
-      <h2 class="">About me</h2>
-      <div class="col">
+      <h2 class="about--title">About me</h2>
+      <div class="col" id="about">
         <p>
-          Hello! My name is Roy Samson and i like creaingg htings that live on the internet. My interest in web development started back in 2016 after I had completed my high school education and decided to bventure into this new world. 
-          I started learning HTML & CSS from youtube tutorials and I was intriged by what I could do. 
+          Hello! My name is Roy Samson and i like creaingg htings that live on the internet. My interest in web
+          development started back in 2016 after I had completed my high school education and decided to bventure into
+          this new world.
+          I started learning HTML & CSS from youtube tutorials and I was intriged by what I could do.
         </p>
         <p>
-          Fast forward to today I am currently a freelancer and been doing that for a couple of years adn was also part of a startup that has yet to be launcehd in Kenya.
-          My main focus is to build products with high quality and perfomrance. 
+          Fast forward to today I am currently a freelancer and been doing that for a couple of years adn was also part
+          of a startup that has yet to be launcehd in Kenya.
+          My main focus is to build products with high quality and perfomrance.
         </p>
         <p>Here are the technologies that i have been working with:</p>
-        <ul class="">
+        <ul class="languages">
           <li>Javascript</li>
           <li>React</li>
           <li>Java</li>
@@ -58,64 +68,67 @@
           <li>tailwindcss& bootstrapcss</li>
         </ul>
       </div>
-        <div class="col-sm-6" id="image-container">
-          <img src="img/image.png" class="image_me" id="" />
-        </div>
+      <div class="col-sm-6" id="image-container">
+        <img src="img/image.png" class="image_me" id="" />
       </div>
-    </dic>
+  </div>
+  </dic>
   </div>
   <div class="container" id="projects">
     <div class="row">
       <h2 class="projects__title" id="">My Projects</h2>
-      <div class="col">
-      <div class="card">
-        <div class="card-content">
-        <h2 class="card-title">Spotify clone</h2>
-        <img src="img/spotify.jpg" class="image"/>
-        <p class="card-body">
-          Making a spotify clone using React JS, CSS, Tailwindcss 
+      <div class="project_card">
+        <p class="description">
+          A spotify clone where a user can do all the functions that they can do in the regular spotify web app.
         </p>
-        <a href="#" class="button">Learn more</a>
+        <div data-aos="zoom-in-up" data-aos-duration="3000" class="card">
+          <div class="card-content">
+            <h2 class="card-title">Spotify clone</h2>
+            <img src="img/spotify.jpg" class="image" />
+            <p class="card-body">
+              Making a spotify clone using React JS, CSS, Tailwindcss
+            </p>
+            <a href="#" class="button">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="project_card">
+        <div data-aos="zoom-in-up" data-aos-duration="3000" class="card">
+          <div class="card-content">
+            <h2 class="card-title">Youtube clone</h2>
+            <img src="img/spotify.jpg" class="image" />
+            <p class="card-body">
+              Making a spotify clone using React JS, CSS, Tailwindcss
+            </p>
+            <a href="#" class="button">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="project_card">
+        <div data-aos="zoom-in-up" data-aos-duration="2000" class="card">
+          <div class="card-content">
+            <h2 class="card-title">Spotify clone</h2>
+            <img src="img/spotify.jpg" class="image" />
+            <p class="card-body">
+              Making a spotify clone using React JS, CSS, Tailwindcss
+            </p>
+            <a href="#" class="button">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="project_card">
+        <div data-aos="zoom-in-up" data-aos-duration="3000" class="card">
+          <div class="card-content">
+            <h2 class="card-title">Spotify clone</h2>
+            <img src="img/spotify.jpg" class="image" />
+            <p class="card-body">
+              Making a spotify clone using React JS, CSS, Tailwindcss
+            </p>
+            <a href="#" class="button">Learn more</a>
+          </div>
+        </div>
       </div>
     </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <div class="card-content">
-        <h2 class="card-title">Youtube clone</h2>
-        <img src="img/spotify.jpg" class="image"/>
-        <p class="card-body">
-          Making a spotify clone using React JS, CSS, Tailwindcss 
-        </p>
-        <a href="#" class="button">Learn more</a>
-      </div>
-    </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <div class="card-content">
-        <h2 class="card-title">Spotify clone</h2>
-        <img src="img/spotify.jpg" class="image"/>
-        <p class="card-body">
-          Making a spotify clone using React JS, CSS, Tailwindcss 
-        </p>
-        <a href="#" class="button">Learn more</a>
-      </div>
-    </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <div class="card-content">
-        <h2 class="card-title">Spotify clone</h2>
-        <img src="img/spotify.jpg" class="image"/>
-        <p class="card-body">
-          Making a spotify clone using React JS, CSS, Tailwindcss 
-        </p>
-        <a href="#" class="button">Learn more</a>
-      </div>
-    </div>
-    </div>
-  </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
