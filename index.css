@@ -76,7 +76,7 @@ body {
   font-size: 40px;
 }
 .project_card{
-  display: flex;
+  display: inline-flex;
 }
 #about {
   font-size: 20px;
@@ -88,6 +88,9 @@ body {
 
 #container {
   /* display: none; */
+}
+.vertical{
+
 }
 
 .link-btn {
