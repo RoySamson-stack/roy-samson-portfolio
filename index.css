@@ -62,13 +62,13 @@ body {
 }
 
 .image_me:hover {
-  transform: scaleX(0.5);
+
   /* opacity: 1; */
 }
 .description{
   background-color: #513F31;
   position: absolute;
-  margin-right: 200px;
+  margin-right: 10px;
 
 }
 
@@ -89,8 +89,11 @@ body {
 #container {
   /* display: none; */
 }
-.vertical{
-
+.vert{
+transform: rotate(90deg);
+margin-left: 30px;
+border: 2px solid white;
+height: 100px;
 }
 
 .link-btn {
@@ -103,6 +106,19 @@ body {
   position: absolute;
   top: 50%;
   right: 2%;
+}.email{
+  display: block;
+  font-size: 30px;
+  /* margin-left: 20px; */
+  /* text-align: left; */
+  position: fixed;
+  right: 0;
+  bottom:0;
+}.email_one{
+  transform: rotate(90deg);
+  font-size: 15px;
+  margin-bottom: 200px;
+  cursor: pointer;
 }
 
 .contain {
@@ -123,6 +139,7 @@ body {
   padding: 10rem 0 0;
   max-width: 35ch;
   max-height: 50ch;
+  position: relative;
   border-radius: 0.5rem;
   overflow: hidden;
   margin-top: 20px;
@@ -205,7 +222,20 @@ body {
   /* display: none; */
   margin-top: 20px;
 }
-
+.project-alt{
+  display: inline-flex;
+  margin-top: 20px;
+  background-color: red;
+  position:relative;
+}.alt-one{
+  /* position: absolute; */
+  right: 20px;
+}
+.alt_image{
+  position: relative;
+  width: 200px;
+}.alt-text{
+}
 @media (hover) {
   .card-content {
     transform: translateY(65%);
