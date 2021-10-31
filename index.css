@@ -131,6 +131,18 @@ height: 100px;
   bottom: 10%;
   margin-bottom: 20px;
 }
+.contact{
+  margin-left: 20px;
+}
+.contact_btn{
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 25px;
+  transition: transform 500ms ease;
+}.contact_btn:hover, .contact_btn:focus{
+background-color: var(--clr-accent-400);
+color: white;
+}
 
 .card {
   color: var(--clr-neutral-100);
@@ -212,8 +224,21 @@ height: 100px;
 .button:hover,
 .button:focus {
   background-color: var(--clr-neutral-100);
+}.main-body{
+  /* display: none; */
 }
+.preloader{
+width: 20px;
+height: auto;
+ top: 50%; 
+left: 50%;
+right: 50%;
+bottom: 50%;
+margin-left: 20px;
+background-color: black; 
+}.loading{
 
+}
 .projects__title {
   text-align: center;
 }
