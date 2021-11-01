@@ -151,6 +151,9 @@ color: white;
   padding: 10rem 0 0;
   max-width: 35ch;
   max-height: 50ch;
+  /* object-fit: contain; */
+  width:400px;
+  height: 380px;
   position: relative;
   border-radius: 0.5rem;
   overflow: hidden;
@@ -161,7 +164,9 @@ color: white;
 
 .card:hover,
 .card:focus-within {
-  transform: scale(1.05)
+  transform: scale(1.05);
+   /* background-image: url(img/image.png); */
+
 }
 
 .card-content {
@@ -179,6 +184,7 @@ color: white;
 .card-title {
   position: relative;
   width: max-content;
+  
 }
 
 .card-title::after {
