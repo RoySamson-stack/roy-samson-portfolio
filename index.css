@@ -267,6 +267,16 @@ background-color: black;
   width: 200px;
 }.alt-text{
 }
+#loading_wrap{
+  position:fixed; 
+  height:100%; 
+  width:100%; 
+  overflow:hidden; 
+  top:50%; 
+  left:50%;
+  right: 50%;
+  bottom: 50%;
+}
 @media (hover) {
   .card-content {
     transform: translateY(65%);
