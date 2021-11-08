@@ -77,6 +77,20 @@ body {
 }
 .project_card{
   display: inline-flex;
+}.project_cards{
+  display: inline-flex;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.project_image{
+  width: 300px;
+  height: 300px;
+  margin-right: 10px;
+  position: relative;
+}.project_content{
+  position: absolute;
+  width: 20%;
 }
 #about {
   font-size: 20px;
