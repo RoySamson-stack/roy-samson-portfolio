@@ -80,7 +80,6 @@ body {
 }.project_cards{
   display: inline-flex;
   padding: 10px;
-  background-color: #fff;
   border-radius: 10px;
 }
 .project_image{
@@ -91,11 +90,29 @@ body {
 }.project_content{
   position: absolute;
   width: 20%;
+  left: 50%;
 }
 #about {
   font-size: 20px;
 }
+#typed-out{
+  overflow: hidden;border-right: .15em solid orange;
+  font-size: 1.6em;
+  width: 0;
+  animation:
+   typing 8s steps(20, end) forwards,
+   blink .8s infinite;
 
+}.contain-me{
+  display: inline-block;
+}
+@keyframes typing{
+  from{width: 0;}
+  to{width: 100%;}
+}@keyframes blink{
+  from {border-color: transparent}
+  to {border-color: orange}
+}
 #image-container {
   text-align: left;
 }
