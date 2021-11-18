@@ -2,9 +2,9 @@
 
 $(document).ready(function(){
  
-  $('#loading_wrap').delay(1000).fadeOut(300,function(){
+  $('.loader').delay(1000).fadeOut(300,function(){
     setTimeout(function(){
-      $('#loading_wrap').remove()
+      $('.loader').remove()
     } ,100);
 });
 const switchElement = document.querySelector('.switch');
