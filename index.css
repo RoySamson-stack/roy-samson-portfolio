@@ -50,17 +50,24 @@ body {
   color: white;
 }
 .fa:hover{
-  border:2px dashed white;
+  border:2px dashed black;
   padding: 10px;
+  color: black;
+}
+.dark .fa:hover{
+  border: 2px dashed white;
   color: white;
-}.languages{
+}
+.languages{
   list-style:outside;
 }
 .hero-image{
   position: relative;
-  width: 50%;
+  width: 100%;
   height: 350px;
   display: block;
+  left: 20%;
+  right: 50%;
   margin-bottom: 100px;
 }
 .cube{
@@ -533,6 +540,11 @@ color: rgb(255, 255, 255);
 }
 @media only screen and (max-width:1300px){
   .hero-image{
-    display: none;
+    position: relative;
+    width: 50%;
+    height: 175px;
+    display: block;
+    left: 5%;
+    margin-bottom: 100px;
   }
 }
