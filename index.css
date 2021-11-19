@@ -117,12 +117,10 @@ body {
   font-size: 40px;
 }
 .project_card{
-  display: inline-flex;
 }.project_cards{
-  display: inline-flex;
-  padding: 10px;
-  border-radius: 10px;
-  margin-top: 20%; 
+  margin: 10%;
+  display: flex;
+  justify-content: center;
 }
 .project_image{
   width: 300px;
@@ -130,16 +128,7 @@ body {
   margin-right: 10px;
   position: relative;
 }.project_content{
-  /* position: absolute; */
-  position: inline-block;
-  width: 50%;
-  left: 50%;
-}.btnLink{
-  padding: 10px;
-  background-color:aquamarine;
-}.btnLink:focus, .btnLink:hover{
-  background-color: var(--clr-neutral-100);
-
+  
 }
 #html{
   left: 50px;
@@ -546,5 +535,12 @@ color: rgb(255, 255, 255);
     display: block;
     left: 5%;
     margin-bottom: 100px;
+  }
+  .main-title {
+    font-size: 75px;
+
+  }
+  .title{
+    font-size: 30px;
   }
 }
