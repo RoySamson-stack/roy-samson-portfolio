@@ -13,12 +13,10 @@ switchElement.addEventListener('click', () => {
 document.body.classList.toggle('dark');
 });
 
-$(".tile").moouseenter(function(){
+$(".tile").hover(function(){
   $(".tile-content").show();
 })
-$(".tile").mouseleave(function(){
-  $(".tile-content").hide(); 
- });
+
 
 });
 
