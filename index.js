@@ -13,9 +13,9 @@ switchElement.addEventListener('click', () => {
 document.body.classList.toggle('dark');
 });
 
-$(".tile").hover(function(){
-  $(".tile-content").show();
-})
+// $(".tile").hover(function(){
+//   $(".tile-content").show();
+// })
 
 
 });
