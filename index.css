@@ -714,5 +714,7 @@ body {
 
   .tile {
     margin-bottom: 1rem;
+  }.email, .icons{
+    display: none;
   }
 }
