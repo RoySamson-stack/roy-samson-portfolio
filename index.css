@@ -717,4 +717,38 @@ body {
   }.email, .icons{
     display: none;
   }
+  
+  .hero-image{
+    display: none;
+  }
+  .main-title {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 150%;
+  }
+  .title{
+    font-size: 90%;
+  }
+  .tile-content {
+    --padding: 1.5rem;
+    padding: var(--padding);
+    background-color: linear-gradient(rgba(hsl(0 0% 0% / 0),
+          hsl(20 0% 0% / 0.3) 20%,
+          hsl(0 0% 0% / 1)));
+
+    position: absolute;
+    /* top: 70px; */
+    bottom: 10px;
+    text-align: center;
+    /* display: none; */
+    font-size: 15px;
+  }
+  .tile-title{
+    font-size: 18px;
+  }
+  .tile-btn{
+    font-size: 50%;
+    width: 20%;
+  }
 }
