@@ -30,7 +30,26 @@ body {
   font-style: italic;
   font-size: 135px;
 }
-
+.resume{
+  display: flex ;
+  align-items: right;
+  justify-content: right;
+}
+.resume-btn{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  border: 2px solid pink;
+  border-radius: 5px;
+  color: black;
+}
+.resume-btn:hover{
+  background-color: pink;
+  color: white;
+}.dark .resume-btn{
+  color: white;
+}
 .icons {
   display: block;
   font-size: 30px;
@@ -452,10 +471,10 @@ body {
   width: 200px;
 }
 
-.header {
+header {
   display: flex;
-  justify-content: flex-end;
-  padding: 30px;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .dark {
@@ -496,20 +515,7 @@ body {
   position: absolute;
 }
 
-/*.resume{
-  width: 30px;
-  height: 30px;
-  top: 50px;
-  right:50px;
-}.resume-btn{
-  border: 2px solid black;
-  padding: 4px;
-  border-radius: 10px;
-  background-color: lightgreen;
-  color: black;
-  font-size: 20px;
-  
-}*/
+
 .dark .flicker {
   transform: translateX(40px);
 }
