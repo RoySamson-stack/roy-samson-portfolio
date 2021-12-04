@@ -17,6 +17,8 @@ document.body.classList.toggle('dark');
 //   $(".tile-content").show();
 // })
 
-
-});
+$(".resume-btn").click(function(){
+  
+})
+  });
 

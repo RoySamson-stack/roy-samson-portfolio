@@ -23,7 +23,9 @@ body {
   background-color: rgb(236, 216, 233);
   color: rgb(59, 56, 56);
 }
-
+object {
+  display: none;
+}
 .main-title {
   text-align: center;
   font-weight: bold;
@@ -696,6 +698,7 @@ header {
   .hero-image{
     width: 100vw;
   }
+ 
 }
 
 @media only screen and (max-width: 860px) {
@@ -723,7 +726,11 @@ header {
 
   .tile {
     margin-bottom: 1rem;
-  }.email, .icons{
+  }
+  .tile-description{
+    font-size: 5px;
+  }
+  .email, .icons{
     display: none;
   }
   
