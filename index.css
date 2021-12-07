@@ -94,7 +94,7 @@ object {
   width: 100%;
   height: 350px;
   display: block;
-  left: 5%;
+  left:2%;
   right: 50%;
   margin-bottom: 100px;
 }
@@ -202,7 +202,18 @@ object {
 #css:after {
   background-color: rgb(183, 143, 187);
 }
-
+#python{
+  left:850px;
+  bottom: 80px;
+  background-size: cover;
+  background-image:url("img/python-square.jpeg");
+  box-shadow: -80px 80px 20px rgb(50 50 50 / 25%);
+}
+#python:before{
+  background-color: rgb(146, 146, 228);
+}#python:after{
+  background-color:rgb(72, 123, 235)
+}
 #javascript {
   left: 650px;
   bottom: 80px;
@@ -694,11 +705,40 @@ header {
  
 }
 
-@media screen and (min-width: 970px) {
+@media screen and (min-width: 1060px) {
   .hero-image{
-    width: 100vw;
+    display: block;
   }
- 
+  #html {
+    bottom: 80px;
+    background-image: url("img/html-square.png");
+    background-size: cover;
+    background-color: rgb(165, 96, 231);
+    box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
+  }
+  #css {
+    left: 450px;
+    bottom: 80px;
+    background-image: url("img/css-square.png");
+    background-size: cover;
+    background-color: rgb(231, 96, 202);
+    box-shadow: -100px 100px 20px rgb(50 50 50 / 15%);
+  }
+  #python{
+    left:850px;
+    bottom: 80px;
+    background-size: cover;
+    background-image:url("img/python-square.jpeg");
+    box-shadow: -80px 80px 20px rgb(50 50 50 / 25%);
+  }
+  #javascript {
+    left: 650px;
+    bottom: 80px;
+    background-image: url("img/javascript-square.png");
+    background-size: cover;
+    background-color: rgb(119, 212, 200);
+    box-shadow: -80px 80px 20px rgb(50 50 50 / 25%);
+  }
 }
 
 @media only screen and (max-width: 860px) {
