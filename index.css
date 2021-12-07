@@ -151,6 +151,7 @@ object {
   font-size: 40px;
 }
 
+
 .project_card {}
 
 .project_cards {
@@ -706,9 +707,9 @@ header {
 }
 
 @media screen and (max-width: 1080px) {
-  .hero-image{
+  /* .hero-image{
     display: ;
-  }
+  } */
   #html {
     left: 100px;
     bottom: 80px;
