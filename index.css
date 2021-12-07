@@ -203,7 +203,7 @@ object {
   background-color: rgb(183, 143, 187);
 }
 #python{
-  left:850px;
+  left:900px;
   bottom: 80px;
   background-size: cover;
   background-image:url("img/python-square.jpeg");
@@ -705,50 +705,58 @@ header {
  
 }
 
-@media screen and (min-width: 1060px) {
+@media screen and (max-width: 1080px) {
   .hero-image{
-    display: block;
+    display: ;
   }
   #html {
+    left: 100px;
     bottom: 80px;
     background-image: url("img/html-square.png");
     background-size: cover;
     background-color: rgb(165, 96, 231);
     box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
   }
+  
   #css {
-    left: 450px;
+    left: 500px;
     bottom: 80px;
     background-image: url("img/css-square.png");
     background-size: cover;
     background-color: rgb(231, 96, 202);
-    box-shadow: -100px 100px 20px rgb(50 50 50 / 15%);
+    box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
   }
+  
   #python{
-    left:850px;
-    bottom: 80px;
+    left: 300px;
+    top: 1px;
+    background-image: url("img/python-square.jpeg");
     background-size: cover;
-    background-image:url("img/python-square.jpeg");
-    box-shadow: -80px 80px 20px rgb(50 50 50 / 25%);
+    background-color: rgb(119, 212, 200);
+    box-shadow: -80px 80px 20px rgb(50 50 50 / 25%);;
   }
   #javascript {
-    left: 650px;
-    bottom: 80px;
+    left: 400px;
+    bottom: 180px;
     background-image: url("img/javascript-square.png");
     background-size: cover;
     background-color: rgb(119, 212, 200);
     box-shadow: -80px 80px 20px rgb(50 50 50 / 25%);
   }
+  
+  #react {
+    left: 200px;
+    bottom: 180px;
+    background-image: url("img/react-square.png");
+    background-size: cover;
+    background-color: rgb(119, 153, 224);
+    box-shadow: -80px 80px 20px rgb(50 50 50 / 15%);
+  }
 }
 
 @media only screen and (max-width: 860px) {
   .hero-image {
-    position: relative;
-    width: 50%;
-    height: 175px;
-    display: block;
-    left: 5%;
-    margin-bottom: 100px;
+   display: none;
   }
 
   .main-title {
